@@ -1,6 +1,6 @@
 require("neo-tree").setup(astronvim.user_plugin_opts("plugins.neo-tree", {
   close_if_last_window = true,
-  enable_diagnostics = false,
+  enable_diagnostics = true,
   source_selector = {
     winbar = true,
     content_layout = "center",
